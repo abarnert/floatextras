@@ -18,6 +18,7 @@ setup(
     keywords = 'float',
     url = 'https://github.com/abarnert/floatextras',
     py_modules = ['floatextras'],
+    test_suite = 'test_floatextras',
     long_description = read('README.md'),
     classifiers = [
         'Development Status :: 4 - Beta',
